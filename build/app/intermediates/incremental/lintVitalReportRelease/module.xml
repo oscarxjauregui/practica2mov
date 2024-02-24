@@ -1,11 +1,11 @@
 <lint-module
     format="1"
-    dir="/home/oscar/Documentos/flutter/practica2/android/app"
+    dir="/home/oscar/Documentos/flutter/practica2mov/android/app"
     name=":app"
     type="APP"
     maven="android:app:"
     gradle="7.3.0"
-    buildFolder="/home/oscar/Documentos/flutter/practica2/build/app"
+    buildFolder="/home/oscar/Documentos/flutter/practica2mov/build/app"
     bootClassPath="/home/oscar/Android/Sdk/platforms/android-34/android.jar:/home/oscar/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar"
     javaSourceLevel="1.8"
     compileTarget="android-34">

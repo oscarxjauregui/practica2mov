@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:/home/oscar/Documentos/flutter/practica2/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/home/oscar/Documentos/flutter/practica2/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/home/oscar/Documentos/flutter/practica2/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/home/oscar/Documentos/flutter/practica2mov/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/home/oscar/Documentos/flutter/practica2mov/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/home/oscar/Documentos/flutter/practica2mov/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
-      name="/home/oscar/Documentos/flutter/practica2/android@@:flutter_plugin_android_lifecycle::release"
-      jars="/home/oscar/Documentos/flutter/practica2/build/flutter_plugin_android_lifecycle/.transforms/2fb4b765dfbd0c251db330056822e7cf/transformed/out/jars/classes.jar:/home/oscar/Documentos/flutter/practica2/build/flutter_plugin_android_lifecycle/.transforms/2fb4b765dfbd0c251db330056822e7cf/transformed/out/jars/libs/R.jar"
+      name="/home/oscar/Documentos/flutter/practica2mov/android@@:flutter_plugin_android_lifecycle::release"
+      jars="/home/oscar/Documentos/flutter/practica2mov/build/flutter_plugin_android_lifecycle/.transforms/319d1c77d77d2bf903d9b9134582ed6d/transformed/out/jars/classes.jar:/home/oscar/Documentos/flutter/practica2mov/build/flutter_plugin_android_lifecycle/.transforms/319d1c77d77d2bf903d9b9134582ed6d/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle:unspecified"
-      folder="/home/oscar/Documentos/flutter/practica2/build/flutter_plugin_android_lifecycle/.transforms/2fb4b765dfbd0c251db330056822e7cf/transformed/out"
+      folder="/home/oscar/Documentos/flutter/practica2mov/build/flutter_plugin_android_lifecycle/.transforms/319d1c77d77d2bf903d9b9134582ed6d/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -17,10 +17,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/oscar/Documentos/flutter/practica2/android@@:path_provider_android::release"
-      jars="/home/oscar/Documentos/flutter/practica2/build/path_provider_android/.transforms/2f20135d0cc815609a59117adffe7f0d/transformed/out/jars/classes.jar:/home/oscar/Documentos/flutter/practica2/build/path_provider_android/.transforms/2f20135d0cc815609a59117adffe7f0d/transformed/out/jars/libs/R.jar"
+      name="/home/oscar/Documentos/flutter/practica2mov/android@@:path_provider_android::release"
+      jars="/home/oscar/Documentos/flutter/practica2mov/build/path_provider_android/.transforms/e4c73d65ad7dc059bdc4253085d6bb15/transformed/out/jars/classes.jar:/home/oscar/Documentos/flutter/practica2mov/build/path_provider_android/.transforms/e4c73d65ad7dc059bdc4253085d6bb15/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.pathprovider:path_provider_android:unspecified"
-      folder="/home/oscar/Documentos/flutter/practica2/build/path_provider_android/.transforms/2f20135d0cc815609a59117adffe7f0d/transformed/out"
+      folder="/home/oscar/Documentos/flutter/practica2mov/build/path_provider_android/.transforms/e4c73d65ad7dc059bdc4253085d6bb15/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -30,10 +30,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/oscar/Documentos/flutter/practica2/android@@:image_picker_android::release"
-      jars="/home/oscar/Documentos/flutter/practica2/build/image_picker_android/.transforms/9719ca62d3e0d84d651001dd7dac6d28/transformed/out/jars/classes.jar:/home/oscar/Documentos/flutter/practica2/build/image_picker_android/.transforms/9719ca62d3e0d84d651001dd7dac6d28/transformed/out/jars/libs/R.jar"
+      name="/home/oscar/Documentos/flutter/practica2mov/android@@:image_picker_android::release"
+      jars="/home/oscar/Documentos/flutter/practica2mov/build/image_picker_android/.transforms/15ba889233a03e83577c35596402acd5/transformed/out/jars/classes.jar:/home/oscar/Documentos/flutter/practica2mov/build/image_picker_android/.transforms/15ba889233a03e83577c35596402acd5/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.imagepicker:image_picker_android:unspecified"
-      folder="/home/oscar/Documentos/flutter/practica2/build/image_picker_android/.transforms/9719ca62d3e0d84d651001dd7dac6d28/transformed/out"
+      folder="/home/oscar/Documentos/flutter/practica2mov/build/image_picker_android/.transforms/15ba889233a03e83577c35596402acd5/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

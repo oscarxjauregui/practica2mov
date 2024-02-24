@@ -15,10 +15,10 @@ io.flutter.plugins.imagepicker.image_picker_android-jetified-lifecycle-viewmodel
 io.flutter.plugins.imagepicker.image_picker_android-jetified-startup-runtime-1.1.1-14 /home/oscar/.gradle/caches/transforms-3/f5fcd9d21efbf86a0ac70e1d2cc111ed/transformed/jetified-startup-runtime-1.1.1/res
 io.flutter.plugins.imagepicker.image_picker_android-main-15 /home/oscar/.pub-cache/hosted/pub.dev/image_picker_android-0.8.9+3/android/src/main/res
 io.flutter.plugins.imagepicker.image_picker_android-release-16 /home/oscar/.pub-cache/hosted/pub.dev/image_picker_android-0.8.9+3/android/src/release/res
-io.flutter.plugins.imagepicker.image_picker_android-packaged_res-17 /home/oscar/Documentos/flutter/practica2/build/flutter_plugin_android_lifecycle/intermediates/packaged_res/release
-io.flutter.plugins.imagepicker.image_picker_android-pngs-18 /home/oscar/Documentos/flutter/practica2/build/image_picker_android/generated/res/pngs/release
-io.flutter.plugins.imagepicker.image_picker_android-resValues-19 /home/oscar/Documentos/flutter/practica2/build/image_picker_android/generated/res/resValues/release
-io.flutter.plugins.imagepicker.image_picker_android-rs-20 /home/oscar/Documentos/flutter/practica2/build/image_picker_android/generated/res/rs/release
-io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-21 /home/oscar/Documentos/flutter/practica2/build/image_picker_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-22 /home/oscar/Documentos/flutter/practica2/build/image_picker_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.flutter.plugins.imagepicker.image_picker_android-merged_res-23 /home/oscar/Documentos/flutter/practica2/build/image_picker_android/intermediates/merged_res/release
+io.flutter.plugins.imagepicker.image_picker_android-packaged_res-17 /home/oscar/Documentos/flutter/practica2mov/build/flutter_plugin_android_lifecycle/intermediates/packaged_res/release
+io.flutter.plugins.imagepicker.image_picker_android-pngs-18 /home/oscar/Documentos/flutter/practica2mov/build/image_picker_android/generated/res/pngs/release
+io.flutter.plugins.imagepicker.image_picker_android-resValues-19 /home/oscar/Documentos/flutter/practica2mov/build/image_picker_android/generated/res/resValues/release
+io.flutter.plugins.imagepicker.image_picker_android-rs-20 /home/oscar/Documentos/flutter/practica2mov/build/image_picker_android/generated/res/rs/release
+io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-21 /home/oscar/Documentos/flutter/practica2mov/build/image_picker_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-22 /home/oscar/Documentos/flutter/practica2mov/build/image_picker_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.imagepicker.image_picker_android-merged_res-23 /home/oscar/Documentos/flutter/practica2mov/build/image_picker_android/intermediates/merged_res/release

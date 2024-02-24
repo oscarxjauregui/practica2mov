@@ -4,6 +4,21 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:practica2/screens/inicio_screen.dart';
 
+class ImageController extends ChangeNotifier {
+  File? _imageFile;
+
+  File? get imageFile => _imageFile;
+
+  void setImageFile(File? imageFile) {
+    _imageFile = imageFile;
+    notifyListeners();
+  }
+}
+
+TextEditingController conUser = TextEditingController(text: "");
+TextEditingController conEmail = TextEditingController(text: "");
+TextEditingController conPwd = TextEditingController(text: "");
+
 class RegistroScreen extends StatefulWidget {
   const RegistroScreen({Key? key}) : super(key: key);
 
@@ -11,13 +26,9 @@ class RegistroScreen extends StatefulWidget {
   State<RegistroScreen> createState() => _RegistroScreenState();
 }
 
-TextEditingController conUser = TextEditingController(text: "");
-TextEditingController conEmail = TextEditingController(text: "");
-TextEditingController conPwd = TextEditingController(text: "");
-
 class _RegistroScreenState extends State<RegistroScreen> {
   bool isLoading = false;
-  File? _imageFile;
+  late ImageController imageController;
   final _formKey = GlobalKey<FormState>();
 
   final txtUser = TextFormField(
@@ -65,12 +76,18 @@ class _RegistroScreenState extends State<RegistroScreen> {
       final pickedFile = await ImagePicker().pickImage(source: source);
       if (pickedFile != null) {
         setState(() {
-          _imageFile = File(pickedFile!.path);
+          imageController.setImageFile(File(pickedFile.path));
         });
       }
     } catch (e) {
       print("Error al seleccionar la imagen: $e");
     }
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    imageController = ImageController();
   }
 
   @override
@@ -150,14 +167,14 @@ class _RegistroScreenState extends State<RegistroScreen> {
                         child: Text('Seleccionar avatar'),
                       ),
                       SizedBox(height: 20),
-                      _imageFile != null
-                          ? Image.file(_imageFile!)
+                      imageController.imageFile != null
+                          ? Image.file(imageController.imageFile!)
                           : const Text(''),
                       SizedBox(height: 10),
                       ElevatedButton(
                         onPressed: () {
                           if (_formKey.currentState!.validate()) {
-                            if (_imageFile == null) {
+                            if (imageController.imageFile == null) {
                               ScaffoldMessenger.of(context).showSnackBar(
                                 SnackBar(
                                   content: Text('Selecciona un avatar.'),
@@ -170,13 +187,16 @@ class _RegistroScreenState extends State<RegistroScreen> {
                               Future.delayed(
                                 const Duration(microseconds: 3000),
                                 () {
-                                  //Navigator.pushNamed(context, '/menu')
                                   Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (context) => InicioScreen(
-                                              conUser.text,
-                                              conEmail.text))).then((value) {
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => InicioScreen(
+                                        conUser.text,
+                                        conEmail.text,
+                                        imageController.imageFile!,
+                                      ),
+                                    ),
+                                  ).then((value) {
                                     setState(() {
                                       isLoading = !isLoading;
                                     });

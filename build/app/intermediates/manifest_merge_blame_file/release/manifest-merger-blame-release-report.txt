@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml
+8-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml
+9-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml
 10    <!--
 11         Required to query activities that can process text, see:
 12         https://developer.android.com/training/package-visibility?hl=en and
@@ -17,16 +17,16 @@
 15         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
 16    -->
 17    <queries>
-17-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:38:5-43:15
+17-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:38:5-43:15
 18        <intent>
-18-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:39:9-42:18
+18-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:39:9-42:18
 19            <action android:name="android.intent.action.PROCESS_TEXT" />
-19-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:40:13-72
-19-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:40:21-70
+19-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:40:13-72
+19-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:40:21-70
 20
 21            <data android:mimeType="text/plain" />
-21-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:41:13-50
-21-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:41:19-48
+21-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:41:13-50
+21-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:41:19-48
 22        </intent>
 23    </queries>
 24
@@ -43,29 +43,29 @@
 30
 31    <application
 32        android:name="android.app.Application"
-32-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:4:9-42
+32-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:4:9-42
 33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 33-->[androidx.core:core:1.10.1] /home/oscar/.gradle/caches/transforms-3/0b9c903fef8d2eb2a269c36999ef4a74/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
 34        android:icon="@mipmap/ic_launcher"
-34-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:5:9-43
+34-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:5:9-43
 35        android:label="practica2" >
-35-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:3:9-34
+35-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:3:9-34
 36        <activity
-36-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:6:9-26:20
+36-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:6:9-26:20
 37            android:name="com.example.practica2.MainActivity"
-37-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:7:13-41
+37-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:7:13-41
 38            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-38-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:11:13-163
+38-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:11:13-163
 39            android:exported="true"
-39-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:8:13-36
+39-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:8:13-36
 40            android:hardwareAccelerated="true"
-40-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:12:13-47
+40-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:12:13-47
 41            android:launchMode="singleTop"
-41-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:9:13-43
+41-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:9:13-43
 42            android:theme="@style/LaunchTheme"
-42-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:10:13-47
+42-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:10:13-47
 43            android:windowSoftInputMode="adjustResize" >
-43-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:13:13-55
+43-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:13:13-55
 44
 45            <!--
 46                 Specifies an Android theme to apply to this Activity as soon as
@@ -74,21 +74,21 @@
 49                 to determine the Window background behind the Flutter UI.
 50            -->
 51            <meta-data
-51-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:18:13-21:17
+51-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:18:13-21:17
 52                android:name="io.flutter.embedding.android.NormalTheme"
-52-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:19:15-70
+52-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:19:15-70
 53                android:resource="@style/NormalTheme" />
-53-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:20:15-52
+53-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:20:15-52
 54
 55            <intent-filter>
-55-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:22:13-25:29
+55-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:22:13-25:29
 56                <action android:name="android.intent.action.MAIN" />
-56-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:23:17-68
-56-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:23:25-66
+56-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:23:17-68
+56-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:23:25-66
 57
 58                <category android:name="android.intent.category.LAUNCHER" />
-58-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:24:17-76
-58-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:24:27-74
+58-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:24:17-76
+58-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:24:27-74
 59            </intent-filter>
 60        </activity>
 61        <!--
@@ -96,28 +96,28 @@
 63             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 64        -->
 65        <meta-data
-65-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:29:9-31:33
+65-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:29:9-31:33
 66            android:name="flutterEmbedding"
-66-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:30:13-44
+66-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:30:13-44
 67            android:value="2" />
-67-->/home/oscar/Documentos/flutter/practica2/android/app/src/main/AndroidManifest.xml:31:13-30
+67-->/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/AndroidManifest.xml:31:13-30
 68
 69        <provider
-69-->[:image_picker_android] /home/oscar/Documentos/flutter/practica2/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+69-->[:image_picker_android] /home/oscar/Documentos/flutter/practica2mov/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
 70            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-70-->[:image_picker_android] /home/oscar/Documentos/flutter/practica2/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+70-->[:image_picker_android] /home/oscar/Documentos/flutter/practica2mov/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
 71            android:authorities="com.example.practica2.flutter.image_provider"
-71-->[:image_picker_android] /home/oscar/Documentos/flutter/practica2/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+71-->[:image_picker_android] /home/oscar/Documentos/flutter/practica2mov/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
 72            android:exported="false"
-72-->[:image_picker_android] /home/oscar/Documentos/flutter/practica2/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+72-->[:image_picker_android] /home/oscar/Documentos/flutter/practica2mov/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
 73            android:grantUriPermissions="true" >
-73-->[:image_picker_android] /home/oscar/Documentos/flutter/practica2/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+73-->[:image_picker_android] /home/oscar/Documentos/flutter/practica2mov/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
 74            <meta-data
-74-->[:image_picker_android] /home/oscar/Documentos/flutter/practica2/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+74-->[:image_picker_android] /home/oscar/Documentos/flutter/practica2mov/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
 75                android:name="android.support.FILE_PROVIDER_PATHS"
-75-->[:image_picker_android] /home/oscar/Documentos/flutter/practica2/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+75-->[:image_picker_android] /home/oscar/Documentos/flutter/practica2mov/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
 76                android:resource="@xml/flutter_image_picker_file_paths" />
-76-->[:image_picker_android] /home/oscar/Documentos/flutter/practica2/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+76-->[:image_picker_android] /home/oscar/Documentos/flutter/practica2mov/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
 77        </provider>
 78
 79        <uses-library

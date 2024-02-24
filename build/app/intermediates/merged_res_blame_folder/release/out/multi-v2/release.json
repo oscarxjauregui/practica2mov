@@ -408,7 +408,7 @@
                     }
                 },
                 {
-                    "source": "/home/oscar/Documentos/flutter/practica2/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -766,7 +766,7 @@
             "outputFile": "com.example.practica2.app-merged_res-22:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "/home/oscar/Documentos/flutter/practica2/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/home/oscar/Documentos/flutter/practica2mov/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
